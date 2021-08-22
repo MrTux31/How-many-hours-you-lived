@@ -1,0 +1,930 @@
+[2021-08-22T11:33:24.783622 6960 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) base_dir = 
+[2021-08-22T11:33:24.783622 6960 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) compiler = 
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) compression = false
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) debug = false
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) disable = false
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) hard_link = false
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:24.783622 6960 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) max_files = 0
+[2021-08-22T11:33:24.783622 6960 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) path = 
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) read_only = false
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) recache = false
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) stats = true
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:24.783622 6960 ] Config: (default) umask = 
+[2021-08-22T11:33:24.783622 6960 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src __constants.c
+[2021-08-22T11:33:24.783622 6960 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:24.783622 6960 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:24.799250 6960 ] Source file: __constants.c
+[2021-08-22T11:33:24.799250 6960 ] Object file: __constants.o
+[2021-08-22T11:33:24.799250 6960 ] Trying direct lookup
+[2021-08-22T11:33:24.799250 6960 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/6/d504beb2aa38477289c023198d72b8-5423.manifest
+[2021-08-22T11:33:24.852649 3772 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) base_dir = 
+[2021-08-22T11:33:24.852649 3772 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) compiler = 
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) compression = false
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) debug = false
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) disable = false
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) hard_link = false
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:24.852649 3772 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) max_files = 0
+[2021-08-22T11:33:24.852649 3772 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) path = 
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) read_only = false
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) recache = false
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) stats = true
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:24.852649 3772 ] Config: (default) umask = 
+[2021-08-22T11:33:24.852649 3772 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src __helpers.c
+[2021-08-22T11:33:24.852649 3772 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:24.852649 3772 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:24.852649 3772 ] Source file: __helpers.c
+[2021-08-22T11:33:24.852649 3772 ] Object file: __helpers.o
+[2021-08-22T11:33:24.852649 3772 ] Trying direct lookup
+[2021-08-22T11:33:24.852649 3772 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/9/0dbe6ce9064eb54d7b87390ebe517d-106324.manifest
+[2021-08-22T11:33:25.152411 6960 ] Got object file hash from manifest
+[2021-08-22T11:33:25.160455 6960 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/f/010c2b22592ae03a8dfb72f46436c9-2978443.o to __constants.o (uncompressed)
+[2021-08-22T11:33:25.162511 6960 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/f/010c2b22592ae03a8dfb72f46436c9-2978443.o -> __constants.o
+[2021-08-22T11:33:25.162511 6960 ] Succeeded getting cached result
+[2021-08-22T11:33:25.162511 6960 ] Result: cache hit (direct)
+[2021-08-22T11:33:25.162511 6960 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2021-08-22T11:33:25.172685 3772 ] Got object file hash from manifest
+[2021-08-22T11:33:25.182798 3772 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/d/cc6b4f6c4ac08a12a394ee1c284fc8-3044259.o to __helpers.o (uncompressed)
+[2021-08-22T11:33:25.182798 3772 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/d/cc6b4f6c4ac08a12a394ee1c284fc8-3044259.o -> __helpers.o
+[2021-08-22T11:33:25.182798 3772 ] Succeeded getting cached result
+[2021-08-22T11:33:25.182798 3772 ] Result: cache hit (direct)
+[2021-08-22T11:33:25.191089 3772 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-08-22T11:33:25.193140 3772 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-08-22T11:33:25.193140 6960 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2021-08-22T11:33:25.392546 9560 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) base_dir = 
+[2021-08-22T11:33:25.392546 9560 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) compiler = 
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) compression = false
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) debug = false
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) disable = false
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) hard_link = false
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:25.392546 9560 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) max_files = 0
+[2021-08-22T11:33:25.392546 9560 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) path = 
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) read_only = false
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) recache = false
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) stats = true
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:25.392546 9560 ] Config: (default) umask = 
+[2021-08-22T11:33:25.392546 9560 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src __loader.c
+[2021-08-22T11:33:25.392546 9560 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:25.392546 9560 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:25.408191 9560 ] Source file: __loader.c
+[2021-08-22T11:33:25.408191 9560 ] Object file: __loader.o
+[2021-08-22T11:33:25.408191 9560 ] Trying direct lookup
+[2021-08-22T11:33:25.408191 9560 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/3/1365e06e1dbdea280a762a82e51221-122001.manifest
+[2021-08-22T11:33:25.408191 9560 ] No such manifest file
+[2021-08-22T11:33:25.408191 9560 ] Did not find object file hash in manifest
+[2021-08-22T11:33:25.408191 9560 ] Running preprocessor
+[2021-08-22T11:33:25.470684 4308 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) base_dir = 
+[2021-08-22T11:33:25.470684 4308 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) compiler = 
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) compression = false
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) debug = false
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) disable = false
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) hard_link = false
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:25.470684 4308 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) max_files = 0
+[2021-08-22T11:33:25.470684 4308 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) path = 
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) read_only = false
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) recache = false
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) stats = true
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:25.470684 4308 ] Config: (default) umask = 
+[2021-08-22T11:33:25.470684 4308 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.__main__.c
+[2021-08-22T11:33:25.470684 4308 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:25.470684 4308 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:25.470684 4308 ] Source file: module.__main__.c
+[2021-08-22T11:33:25.470684 4308 ] Object file: module.__main__.o
+[2021-08-22T11:33:25.470684 4308 ] Trying direct lookup
+[2021-08-22T11:33:25.470684 4308 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/0/b6835daa9b8dc3cd6a4ec51b3226fd-169804.manifest
+[2021-08-22T11:33:25.828497 4308 ] Got object file hash from manifest
+[2021-08-22T11:33:25.828497 4308 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/9/eadc5a79d23a12879f95db61411882-3138446.o to module.__main__.o (uncompressed)
+[2021-08-22T11:33:25.828497 4308 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/9/eadc5a79d23a12879f95db61411882-3138446.o -> module.__main__.o
+[2021-08-22T11:33:25.828497 4308 ] Succeeded getting cached result
+[2021-08-22T11:33:25.828497 4308 ] Result: cache hit (direct)
+[2021-08-22T11:33:25.848796 4308 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-22T11:33:25.856854 4308 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-22T11:33:25.990653 1388 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) base_dir = 
+[2021-08-22T11:33:25.990653 1388 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) compiler = 
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) compression = false
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) debug = false
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) disable = false
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) hard_link = false
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:25.990653 1388 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) max_files = 0
+[2021-08-22T11:33:25.990653 1388 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) path = 
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) read_only = false
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) recache = false
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) stats = true
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:25.990653 1388 ] Config: (default) umask = 
+[2021-08-22T11:33:25.990653 1388 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pypresence.baseclient.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.pypresence.baseclient.c
+[2021-08-22T11:33:25.990653 1388 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:25.990653 1388 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:25.990653 1388 ] Source file: module.pypresence.baseclient.c
+[2021-08-22T11:33:25.990653 1388 ] Object file: module.pypresence.baseclient.o
+[2021-08-22T11:33:25.990653 1388 ] Trying direct lookup
+[2021-08-22T11:33:25.990653 1388 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/7/2fb2091cfbcc17420a163786c25376-394079.manifest
+[2021-08-22T11:33:26.284693 9560 ] Got object file hash from preprocessor
+[2021-08-22T11:33:26.284693 9560 ] Object file C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/0/2a40265795cfa7a20cea586be63dbc-520925.o not in cache
+[2021-08-22T11:33:26.284693 9560 ] Running real compiler
+[2021-08-22T11:33:26.335324 1388 ] Got object file hash from manifest
+[2021-08-22T11:33:26.345431 1388 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/6/f1ab31debe7452b20f0d0882fba00b-3368461.o to module.pypresence.baseclient.o (uncompressed)
+[2021-08-22T11:33:26.345431 1388 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/6/f1ab31debe7452b20f0d0882fba00b-3368461.o -> module.pypresence.baseclient.o
+[2021-08-22T11:33:26.345431 1388 ] Succeeded getting cached result
+[2021-08-22T11:33:26.345431 1388 ] Result: cache hit (direct)
+[2021-08-22T11:33:26.353536 1388 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-22T11:33:26.375856 1388 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-22T11:33:26.548129 4320 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) base_dir = 
+[2021-08-22T11:33:26.548129 4320 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) compiler = 
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) compression = false
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) debug = false
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) disable = false
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) hard_link = false
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:26.548129 4320 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) max_files = 0
+[2021-08-22T11:33:26.548129 4320 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) path = 
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) read_only = false
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) recache = false
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) stats = true
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:26.548129 4320 ] Config: (default) umask = 
+[2021-08-22T11:33:26.548129 4320 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pypresence.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.pypresence.c
+[2021-08-22T11:33:26.548129 4320 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:26.548129 4320 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:26.556248 4320 ] Source file: module.pypresence.c
+[2021-08-22T11:33:26.556248 4320 ] Object file: module.pypresence.o
+[2021-08-22T11:33:26.556248 4320 ] Trying direct lookup
+[2021-08-22T11:33:26.558302 4320 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/0/80d536dbbe23fe12d48a8334c24e74-37718.manifest
+[2021-08-22T11:33:26.892893 4320 ] Got object file hash from manifest
+[2021-08-22T11:33:26.892893 4320 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/b/de0f452b008a229e959be442643612-3003968.o to module.pypresence.o (uncompressed)
+[2021-08-22T11:33:26.892893 4320 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/b/de0f452b008a229e959be442643612-3003968.o -> module.pypresence.o
+[2021-08-22T11:33:26.892893 4320 ] Succeeded getting cached result
+[2021-08-22T11:33:26.892893 4320 ] Result: cache hit (direct)
+[2021-08-22T11:33:26.892893 4320 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-22T11:33:26.913206 4320 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-22T11:33:27.075318 3180 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) base_dir = 
+[2021-08-22T11:33:27.075318 3180 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) compiler = 
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) compression = false
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) debug = false
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) disable = false
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) hard_link = false
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:27.075318 3180 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) max_files = 0
+[2021-08-22T11:33:27.075318 3180 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) path = 
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) read_only = false
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) recache = false
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) stats = true
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:27.075318 3180 ] Config: (default) umask = 
+[2021-08-22T11:33:27.083401 3180 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pypresence.client.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.pypresence.client.c
+[2021-08-22T11:33:27.083401 3180 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:27.083401 3180 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:27.083401 3180 ] Source file: module.pypresence.client.c
+[2021-08-22T11:33:27.083401 3180 ] Object file: module.pypresence.client.o
+[2021-08-22T11:33:27.085451 3180 ] Trying direct lookup
+[2021-08-22T11:33:27.095615 3180 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/1/b036144627de0e0075ad92c484f993-1192350.manifest
+[2021-08-22T11:33:27.176631 9560 ] Unlink C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/0/2a40265795cfa7a20cea586be63dbc-520925.o.tmp.stdout.DESKTOP-445IHH9.9560.FzP5tM
+[2021-08-22T11:33:27.176631 9560 ] Unlink C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/0/2a40265795cfa7a20cea586be63dbc-520925.o.tmp.stderr.DESKTOP-445IHH9.9560.1QBI6D
+[2021-08-22T11:33:27.205020 9560 ] Copying __loader.o to C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/0/2a40265795cfa7a20cea586be63dbc-520925.o via C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/0/2a40265795cfa7a20cea586be63dbc-520925.o.DESKTOP-445IHH9.9560.SS92c3 (uncompressed)
+[2021-08-22T11:33:27.225267 9560 ] Stored in cache: __loader.o -> C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/0/2a40265795cfa7a20cea586be63dbc-520925.o (copied)
+[2021-08-22T11:33:27.227318 9560 ] Added object file hash to C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/3/1365e06e1dbdea280a762a82e51221-122001.manifest
+[2021-08-22T11:33:27.227318 9560 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2021-08-22T11:33:27.237398 9560 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2021-08-22T11:33:27.237398 9560 ] Result: cache miss
+[2021-08-22T11:33:27.237398 9560 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-08-22T11:33:27.257660 9560 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-08-22T11:33:27.419815 9964 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) base_dir = 
+[2021-08-22T11:33:27.419815 9964 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) compiler = 
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) compression = false
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) debug = false
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) disable = false
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) hard_link = false
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:27.419815 9964 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) max_files = 0
+[2021-08-22T11:33:27.419815 9964 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) path = 
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) read_only = false
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) recache = false
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) stats = true
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:27.419815 9964 ] Config: (default) umask = 
+[2021-08-22T11:33:27.419815 9964 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pypresence.exceptions.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.pypresence.exceptions.c
+[2021-08-22T11:33:27.419815 9964 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:27.419815 9964 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:27.419815 9964 ] Source file: module.pypresence.exceptions.c
+[2021-08-22T11:33:27.419815 9964 ] Object file: module.pypresence.exceptions.o
+[2021-08-22T11:33:27.419815 9964 ] Trying direct lookup
+[2021-08-22T11:33:27.419815 9964 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/4/9b604019233a0ca17b616c8bcff031-320500.manifest
+[2021-08-22T11:33:27.440082 3180 ] Got object file hash from manifest
+[2021-08-22T11:33:27.440082 3180 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/1/ddd24c560fed5fbd82bb0d96bd15d1-4217588.o to module.pypresence.client.o (uncompressed)
+[2021-08-22T11:33:27.440082 3180 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/1/ddd24c560fed5fbd82bb0d96bd15d1-4217588.o -> module.pypresence.client.o
+[2021-08-22T11:33:27.440082 3180 ] Succeeded getting cached result
+[2021-08-22T11:33:27.440082 3180 ] Result: cache hit (direct)
+[2021-08-22T11:33:27.440082 3180 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-08-22T11:33:27.470489 3180 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-08-22T11:33:27.592322 9552 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) base_dir = 
+[2021-08-22T11:33:27.592322 9552 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) compiler = 
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) compression = false
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) debug = false
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) disable = false
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) hard_link = false
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:27.592322 9552 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) max_files = 0
+[2021-08-22T11:33:27.592322 9552 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) path = 
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) read_only = false
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) recache = false
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) stats = true
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:27.592322 9552 ] Config: (default) umask = 
+[2021-08-22T11:33:27.592322 9552 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pypresence.payloads.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.pypresence.payloads.c
+[2021-08-22T11:33:27.592322 9552 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:27.592322 9552 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:27.592322 9552 ] Source file: module.pypresence.payloads.c
+[2021-08-22T11:33:27.592322 9552 ] Object file: module.pypresence.payloads.o
+[2021-08-22T11:33:27.592322 9552 ] Trying direct lookup
+[2021-08-22T11:33:27.602422 9552 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/9/72e8a312e5a3429b548495623e218d-446727.manifest
+[2021-08-22T11:33:27.764382 9964 ] Got object file hash from manifest
+[2021-08-22T11:33:27.764382 9964 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/8/443406da0303f13a52ee60e31b41a9-3270646.o to module.pypresence.exceptions.o (uncompressed)
+[2021-08-22T11:33:27.764382 9964 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/8/443406da0303f13a52ee60e31b41a9-3270646.o -> module.pypresence.exceptions.o
+[2021-08-22T11:33:27.764382 9964 ] Succeeded getting cached result
+[2021-08-22T11:33:27.764382 9964 ] Result: cache hit (direct)
+[2021-08-22T11:33:27.764382 9964 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-08-22T11:33:27.784700 9964 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-08-22T11:33:27.957092 7868 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) base_dir = 
+[2021-08-22T11:33:27.957092 7868 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) compiler = 
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) compression = false
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) debug = false
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) disable = false
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) hard_link = false
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:27.957092 7868 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) max_files = 0
+[2021-08-22T11:33:27.957092 7868 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) path = 
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) read_only = false
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) recache = false
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) stats = true
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:27.957092 7868 ] Config: (default) umask = 
+[2021-08-22T11:33:27.957092 7868 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pypresence.presence.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.pypresence.presence.c
+[2021-08-22T11:33:27.957092 7868 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:27.957092 7868 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:27.957092 7868 ] Source file: module.pypresence.presence.c
+[2021-08-22T11:33:27.957092 7868 ] Object file: module.pypresence.presence.o
+[2021-08-22T11:33:27.957092 7868 ] Trying direct lookup
+[2021-08-22T11:33:27.957092 9552 ] Got object file hash from manifest
+[2021-08-22T11:33:27.965198 7868 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/a/bf1895e4d0fa9cea171058da2184e1-280149.manifest
+[2021-08-22T11:33:27.965198 9552 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/3/02612c5000c4a4f8aa0876b44ef195-3392171.o to module.pypresence.payloads.o (uncompressed)
+[2021-08-22T11:33:27.965198 9552 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/3/02612c5000c4a4f8aa0876b44ef195-3392171.o -> module.pypresence.payloads.o
+[2021-08-22T11:33:27.967261 9552 ] Succeeded getting cached result
+[2021-08-22T11:33:27.967261 9552 ] Result: cache hit (direct)
+[2021-08-22T11:33:27.967261 9552 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2021-08-22T11:33:27.967261 9552 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2021-08-22T11:33:28.099674 6184 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) base_dir = 
+[2021-08-22T11:33:28.099674 6184 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) compiler = 
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) compression = false
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) debug = false
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) disable = false
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) hard_link = false
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:28.099674 6184 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) max_files = 0
+[2021-08-22T11:33:28.099674 6184 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) path = 
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) read_only = false
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) recache = false
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) stats = true
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:28.099674 6184 ] Config: (default) umask = 
+[2021-08-22T11:33:28.099674 6184 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pypresence.utils.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.pypresence.utils.c
+[2021-08-22T11:33:28.099674 6184 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:28.099674 6184 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:28.099674 6184 ] Source file: module.pypresence.utils.c
+[2021-08-22T11:33:28.099674 6184 ] Object file: module.pypresence.utils.o
+[2021-08-22T11:33:28.099674 6184 ] Trying direct lookup
+[2021-08-22T11:33:28.107739 6184 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/3/dc4721d31b5c7e5cf8b921e258fd14-122527.manifest
+[2021-08-22T11:33:28.342783 7868 ] Got object file hash from manifest
+[2021-08-22T11:33:28.350850 7868 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/5/0698cee0fd54ef9253c894e2d2da55-3252600.o to module.pypresence.presence.o (uncompressed)
+[2021-08-22T11:33:28.352912 7868 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/5/0698cee0fd54ef9253c894e2d2da55-3252600.o -> module.pypresence.presence.o
+[2021-08-22T11:33:28.352912 7868 ] Succeeded getting cached result
+[2021-08-22T11:33:28.352912 7868 ] Result: cache hit (direct)
+[2021-08-22T11:33:28.352912 7868 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-08-22T11:33:28.352912 7868 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-08-22T11:33:28.454411 6184 ] Got object file hash from manifest
+[2021-08-22T11:33:28.454411 6184 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/2/4f4f592e1488c71b77e9e14272d22f-3090563.o to module.pypresence.utils.o (uncompressed)
+[2021-08-22T11:33:28.454411 6184 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/2/4f4f592e1488c71b77e9e14272d22f-3090563.o -> module.pypresence.utils.o
+[2021-08-22T11:33:28.464560 6184 ] Succeeded getting cached result
+[2021-08-22T11:33:28.464560 6184 ] Result: cache hit (direct)
+[2021-08-22T11:33:28.464560 6184 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-08-22T11:33:28.464560 6184 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-08-22T11:33:28.484792 2696 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) base_dir = 
+[2021-08-22T11:33:28.484792 2696 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) compiler = 
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) compression = false
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) debug = false
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) disable = false
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) hard_link = false
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:28.484792 2696 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) max_files = 0
+[2021-08-22T11:33:28.484792 2696 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) path = 
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) read_only = false
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) recache = false
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) stats = true
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:28.484792 2696 ] Config: (default) umask = 
+[2021-08-22T11:33:28.484792 2696 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.tkinter-preLoad.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src module.tkinter-preLoad.c
+[2021-08-22T11:33:28.484792 2696 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:28.484792 2696 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:28.484792 2696 ] Source file: module.tkinter-preLoad.c
+[2021-08-22T11:33:28.484792 2696 ] Object file: module.tkinter-preLoad.o
+[2021-08-22T11:33:28.484792 2696 ] Trying direct lookup
+[2021-08-22T11:33:28.492850 2696 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/9/8c2536018651dee84982212dc8f99f-30219.manifest
+[2021-08-22T11:33:28.492850 2696 ] No such manifest file
+[2021-08-22T11:33:28.492850 2696 ] Did not find object file hash in manifest
+[2021-08-22T11:33:28.494912 2696 ] Running preprocessor
+[2021-08-22T11:33:28.655803 3376 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) base_dir = 
+[2021-08-22T11:33:28.655803 3376 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) compiler = 
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) compression = false
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) debug = false
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) disable = false
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) hard_link = false
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:28.655803 3376 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) max_files = 0
+[2021-08-22T11:33:28.655803 3376 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) path = 
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) read_only = false
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) recache = false
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) stats = true
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:28.655803 3376 ] Config: (default) umask = 
+[2021-08-22T11:33:28.655803 3376 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\MainProgram.c
+[2021-08-22T11:33:28.655803 3376 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:28.655803 3376 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:28.663925 3376 ] Source file: static_src\MainProgram.c
+[2021-08-22T11:33:28.663925 3376 ] Object file: static_src\MainProgram.o
+[2021-08-22T11:33:28.663925 3376 ] Trying direct lookup
+[2021-08-22T11:33:28.665970 3376 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/b/7b74c370af4030cc3c72a19a229709-26855.manifest
+[2021-08-22T11:33:29.071385 3376 ] Got object file hash from manifest
+[2021-08-22T11:33:29.081550 3376 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/1b9c5e457ce7b8ef257ea13a298cd7-4160240.o to static_src\MainProgram.o (uncompressed)
+[2021-08-22T11:33:29.081550 3376 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/1b9c5e457ce7b8ef257ea13a298cd7-4160240.o -> static_src\MainProgram.o
+[2021-08-22T11:33:29.081550 3376 ] Succeeded getting cached result
+[2021-08-22T11:33:29.081550 3376 ] Result: cache hit (direct)
+[2021-08-22T11:33:29.081550 3376 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-08-22T11:33:29.081550 3376 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-08-22T11:33:29.273865 4232 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) base_dir = 
+[2021-08-22T11:33:29.273865 4232 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) compiler = 
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) compression = false
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) debug = false
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) disable = false
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) hard_link = false
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:29.273865 4232 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) max_files = 0
+[2021-08-22T11:33:29.273865 4232 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) path = 
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) read_only = false
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) recache = false
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) stats = true
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:29.273865 4232 ] Config: (default) umask = 
+[2021-08-22T11:33:29.273865 4232 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\CompiledCellType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledCellType.c
+[2021-08-22T11:33:29.273865 4232 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:29.273865 4232 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:29.273865 4232 ] Source file: static_src\CompiledCellType.c
+[2021-08-22T11:33:29.273865 4232 ] Object file: static_src\CompiledCellType.o
+[2021-08-22T11:33:29.273865 4232 ] Trying direct lookup
+[2021-08-22T11:33:29.273865 4232 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/9/4ddd49680e7d447ab89fc5ed9c242c-8182.manifest
+[2021-08-22T11:33:29.567745 4232 ] Got object file hash from manifest
+[2021-08-22T11:33:29.567745 4232 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/9/83a5de554a77d7b30b17055a5cd2a9-2981881.o to static_src\CompiledCellType.o (uncompressed)
+[2021-08-22T11:33:29.567745 4232 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/9/83a5de554a77d7b30b17055a5cd2a9-2981881.o -> static_src\CompiledCellType.o
+[2021-08-22T11:33:29.567745 4232 ] Succeeded getting cached result
+[2021-08-22T11:33:29.567745 4232 ] Result: cache hit (direct)
+[2021-08-22T11:33:29.567745 4232 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2021-08-22T11:33:29.577877 4232 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2021-08-22T11:33:29.689404 4572 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) base_dir = 
+[2021-08-22T11:33:29.689404 4572 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) compiler = 
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) compression = false
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) debug = false
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) disable = false
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) hard_link = false
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:29.689404 4572 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) max_files = 0
+[2021-08-22T11:33:29.689404 4572 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) path = 
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) read_only = false
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) recache = false
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) stats = true
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:29.689404 4572 ] Config: (default) umask = 
+[2021-08-22T11:33:29.689404 4572 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledFunctionType.c
+[2021-08-22T11:33:29.689404 4572 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:29.689404 4572 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:29.689404 4572 ] Source file: static_src\CompiledFunctionType.c
+[2021-08-22T11:33:29.689404 4572 ] Object file: static_src\CompiledFunctionType.o
+[2021-08-22T11:33:29.689404 4572 ] Trying direct lookup
+[2021-08-22T11:33:29.689404 4572 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/f/0266b2bd70a91ba1c801448e124a88-79163.manifest
+[2021-08-22T11:33:29.993712 4572 ] Got object file hash from manifest
+[2021-08-22T11:33:30.001814 4572 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/7/e2f1846052618da7e672c3140d7eca-3062355.o to static_src\CompiledFunctionType.o (uncompressed)
+[2021-08-22T11:33:30.001814 4572 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/7/e2f1846052618da7e672c3140d7eca-3062355.o -> static_src\CompiledFunctionType.o
+[2021-08-22T11:33:30.003885 4572 ] Succeeded getting cached result
+[2021-08-22T11:33:30.003885 4572 ] Result: cache hit (direct)
+[2021-08-22T11:33:30.003885 4572 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-22T11:33:30.003885 4572 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-22T11:33:30.176424 7700 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) base_dir = 
+[2021-08-22T11:33:30.176424 7700 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) compiler = 
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) compression = false
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) debug = false
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) disable = false
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) hard_link = false
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:30.176424 7700 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) max_files = 0
+[2021-08-22T11:33:30.176424 7700 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) path = 
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) read_only = false
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) recache = false
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) stats = true
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:30.176424 7700 ] Config: (default) umask = 
+[2021-08-22T11:33:30.176424 7700 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\CompiledGeneratorType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledGeneratorType.c
+[2021-08-22T11:33:30.176424 7700 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:30.176424 7700 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:30.176424 7700 ] Source file: static_src\CompiledGeneratorType.c
+[2021-08-22T11:33:30.176424 7700 ] Object file: static_src\CompiledGeneratorType.o
+[2021-08-22T11:33:30.176424 7700 ] Trying direct lookup
+[2021-08-22T11:33:30.176424 7700 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/1/eca79dd5214d8933657c4b351925bb-57612.manifest
+[2021-08-22T11:33:30.186573 2696 ] Got object file hash from preprocessor
+[2021-08-22T11:33:30.194622 2696 ] Object file C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/58c035a34066da68b38faa55d03edf-2996296.o not in cache
+[2021-08-22T11:33:30.194622 2696 ] Running real compiler
+[2021-08-22T11:33:30.653416 7700 ] Got object file hash from manifest
+[2021-08-22T11:33:30.661479 7700 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/b/d011c75515da46d8e4c555774f08dc-3165871.o to static_src\CompiledGeneratorType.o (uncompressed)
+[2021-08-22T11:33:30.661479 7700 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/b/d011c75515da46d8e4c555774f08dc-3165871.o -> static_src\CompiledGeneratorType.o
+[2021-08-22T11:33:30.663580 7700 ] Succeeded getting cached result
+[2021-08-22T11:33:30.663580 7700 ] Result: cache hit (direct)
+[2021-08-22T11:33:30.663580 7700 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-08-22T11:33:30.663580 7700 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-08-22T11:33:31.241397 5920 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) base_dir = 
+[2021-08-22T11:33:31.241397 5920 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) compiler = 
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) compression = false
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) debug = false
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) disable = false
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) hard_link = false
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:31.241397 5920 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) max_files = 0
+[2021-08-22T11:33:31.241397 5920 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) path = 
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) read_only = false
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) recache = false
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) stats = true
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:31.241397 5920 ] Config: (default) umask = 
+[2021-08-22T11:33:31.241397 5920 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\CompiledCodeHelpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledCodeHelpers.c
+[2021-08-22T11:33:31.241397 5920 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:31.241397 5920 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:31.241397 5920 ] Source file: static_src\CompiledCodeHelpers.c
+[2021-08-22T11:33:31.241397 5920 ] Object file: static_src\CompiledCodeHelpers.o
+[2021-08-22T11:33:31.241397 5920 ] Trying direct lookup
+[2021-08-22T11:33:31.241397 5920 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/7/0c83bd183d0dbb2df04ff95be405c6-55730.manifest
+[2021-08-22T11:33:31.636691 5920 ] Got object file hash from manifest
+[2021-08-22T11:33:31.644764 5920 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/a/512a9dd05ab8f2172395ff01935c7a-5540831.o to static_src\CompiledCodeHelpers.o (uncompressed)
+[2021-08-22T11:33:31.727874 5920 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/a/512a9dd05ab8f2172395ff01935c7a-5540831.o -> static_src\CompiledCodeHelpers.o
+[2021-08-22T11:33:31.735932 5920 ] Succeeded getting cached result
+[2021-08-22T11:33:31.735932 5920 ] Result: cache hit (direct)
+[2021-08-22T11:33:31.735932 5920 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-22T11:33:31.737979 5920 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-22T11:33:31.870142 2512 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) base_dir = 
+[2021-08-22T11:33:31.870142 2512 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) compiler = 
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) compression = false
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) debug = false
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) disable = false
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) hard_link = false
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:31.870142 2512 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) max_files = 0
+[2021-08-22T11:33:31.870142 2512 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) path = 
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) read_only = false
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) recache = false
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) stats = true
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:31.870142 2512 ] Config: (default) umask = 
+[2021-08-22T11:33:31.870142 2512 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\InspectPatcher.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\InspectPatcher.c
+[2021-08-22T11:33:31.870142 2512 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:31.870142 2512 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:31.870142 2512 ] Source file: static_src\InspectPatcher.c
+[2021-08-22T11:33:31.870142 2512 ] Object file: static_src\InspectPatcher.o
+[2021-08-22T11:33:31.870142 2512 ] Trying direct lookup
+[2021-08-22T11:33:31.870142 2512 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/2/9ba07f5d874a88cb7dc9d1ca22d457-13846.manifest
+[2021-08-22T11:33:32.350719 2512 ] Got object file hash from manifest
+[2021-08-22T11:33:32.350719 2512 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/7/0299558abe0a843fb8685ce919d930-2987566.o to static_src\InspectPatcher.o (uncompressed)
+[2021-08-22T11:33:32.366346 2512 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/7/0299558abe0a843fb8685ce919d930-2987566.o -> static_src\InspectPatcher.o
+[2021-08-22T11:33:32.366346 2512 ] Succeeded getting cached result
+[2021-08-22T11:33:32.366346 2512 ] Result: cache hit (direct)
+[2021-08-22T11:33:32.366346 2512 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-22T11:33:32.366346 2512 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-08-22T11:33:32.536905 9616 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) base_dir = 
+[2021-08-22T11:33:32.536905 9616 ] Config: (environment) cache_dir = C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) cache_dir_levels = 2
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) compiler = 
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) compiler_check = mtime
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) compression = false
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) compression_level = 6
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) cpp_extension = 
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) debug = false
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) depend_mode = false
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) direct_mode = true
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) disable = false
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) extra_files_to_hash = 
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) hard_link = false
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) hash_dir = true
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) ignore_headers_in_manifest = 
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) keep_comments_cpp = false
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) limit_multiple = 0.8
+[2021-08-22T11:33:32.536905 9616 ] Config: (environment) log_file = C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build\ccache-8784.txt
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) max_files = 0
+[2021-08-22T11:33:32.536905 9616 ] Config: (C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) path = 
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) pch_external_checksum = false
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) prefix_command = 
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) prefix_command_cpp = 
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) read_only = false
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) read_only_direct = false
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) recache = false
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) run_second_cpp = true
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) sloppiness = 
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) stats = true
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) temporary_dir = 
+[2021-08-22T11:33:32.536905 9616 ] Config: (default) umask = 
+[2021-08-22T11:33:32.536905 9616 ] Command line: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\MetaPathBasedLoader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_ONEFILE -D_NUITKA_ONEFILE_TEMP -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=166 -D_NUITKA_EXE -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\include -IC:\Users\Quentin\AppData\Local\Programs\Python\Python39\lib\SITE-P~1\nuitka\build\static_src static_src\MetaPathBasedLoader.c
+[2021-08-22T11:33:32.536905 9616 ] Hostname: DESKTOP-445IHH9
+[2021-08-22T11:33:32.536905 9616 ] Working directory: C:\Users\Quentin\PycharmProjects\HowManyHoursHaveYouLived\HowManyHoursHaveYouLived.build
+[2021-08-22T11:33:32.536905 9616 ] Source file: static_src\MetaPathBasedLoader.c
+[2021-08-22T11:33:32.536905 9616 ] Object file: static_src\MetaPathBasedLoader.o
+[2021-08-22T11:33:32.536905 9616 ] Trying direct lookup
+[2021-08-22T11:33:32.536905 9616 ] Looking for object file hash in C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/c/c3f8a0859056104395da2db06cc41d-54404.manifest
+[2021-08-22T11:33:32.819029 9616 ] Got object file hash from manifest
+[2021-08-22T11:33:32.821091 9616 ] Copying C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/a91326097fd2c63b1ee4a2d29d14a2-3007908.o to static_src\MetaPathBasedLoader.o (uncompressed)
+[2021-08-22T11:33:32.841347 9616 ] Created from cache: C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/a91326097fd2c63b1ee4a2d29d14a2-3007908.o -> static_src\MetaPathBasedLoader.o
+[2021-08-22T11:33:32.841347 9616 ] Succeeded getting cached result
+[2021-08-22T11:33:32.841347 9616 ] Result: cache hit (direct)
+[2021-08-22T11:33:32.841347 9616 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-08-22T11:33:32.849405 9616 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-08-22T11:33:33.681643 2696 ] Unlink C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/58c035a34066da68b38faa55d03edf-2996296.o.tmp.stdout.DESKTOP-445IHH9.2696.1QBI6D
+[2021-08-22T11:33:33.681643 2696 ] Unlink C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/58c035a34066da68b38faa55d03edf-2996296.o.tmp.stderr.DESKTOP-445IHH9.2696.SS92c3
+[2021-08-22T11:33:33.712895 2696 ] Copying module.tkinter-preLoad.o to C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/58c035a34066da68b38faa55d03edf-2996296.o via C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/58c035a34066da68b38faa55d03edf-2996296.o.DESKTOP-445IHH9.2696.1Apgjk (uncompressed)
+[2021-08-22T11:33:33.712895 2696 ] Stored in cache: module.tkinter-preLoad.o -> C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/58c035a34066da68b38faa55d03edf-2996296.o (copied)
+[2021-08-22T11:33:33.728519 2696 ] Added object file hash to C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/9/8c2536018651dee84982212dc8f99f-30219.manifest
+[2021-08-22T11:33:33.728519 2696 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-08-22T11:33:33.728519 2696 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-08-22T11:33:33.728519 2696 ] Result: cache miss
+[2021-08-22T11:33:33.728519 2696 ] Acquired lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-08-22T11:33:33.744142 2696 ] Releasing lock C:\Users\Quentin\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
