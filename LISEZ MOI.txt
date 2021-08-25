@@ -1,4 +1,4 @@
----How-many-hours-you-lived v2---
+---How-many-hours-you-lived v2.1---
 
 -Un programme dévellopé par MrTux31 (allias Tux31)
 -Le projet est dans le domaine de l'open source, vous pouvez l'utiliser et le modifier à votre guise.
@@ -7,4 +7,4 @@
 de ce programme, merci de le signaler ici : https://github.com/MrTux31/How-many-hours-you-lived/issues
 
 -Vous pouvez démarrer l'application en exécutant le fichier "HowManyHoursHaveYouLived.exe"
-ou en rentrant directement dans le fichier du code "code v2.py" (nécessite python).
+ou en rentrant directement dans le fichier du code "code v2.1.py" (nécessite python).
