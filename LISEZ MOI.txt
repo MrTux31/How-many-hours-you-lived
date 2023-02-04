@@ -6,5 +6,4 @@
 -Si vous rencontrez un bug lors de l'tutilisation 
 de ce programme, merci de le signaler ici : https://github.com/MrTux31/How-many-hours-you-lived/issues
 
--Vous pouvez démarrer l'application en exécutant le fichier "HowManyHoursHaveYouLived.exe"
-ou en rentrant directement dans le fichier du code "code v2.1.py" (nécessite python).
+-Vous pouvez démarrer l'application en exécutant le fichier du code "code v2.5.py" (nécessite python d'installé).
