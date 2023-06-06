@@ -17,146 +17,136 @@ import pathlib
 import os.path
 
 
+def est_bissextile(y):
+    return y % 4 == 0 and (y % 100 != 0 or y % 400 == 0)
+
+
 # on crée la fonction qui va calculer combien d'heures l'utilisateur à vécu
 def calcul_age():
-
     # on efface les anciennes données affichées à l'écran
     age_show.config(text="")
-    # ces variables check permettent de vérifier tout au long de la procédure si toute les infos que l'utilisateur
-    # sont bien justes et que pour le programme n'exécute pas un calcul complètement faux.
-    checkd2 = 0
-    checkm2 = 0
-    checka2 = 0
-    check2 = 0
-    total_check = 0
 
     # RÉCUPÉRER LES DONNES DE TEMPS ACTUELLES (et conversion en heures)
     date1 = datetime.now()
     jour = date1.day * 24
     mois = date1.month * 730
     heure = date1.hour
-    minute = date1.minute * 0.0166667
-    seconde = date1.second * 0.000277778
-    annee = date1.year * 8760
+    minute = date1.minute / 60
+    seconde = date1.second / 3600
+    annee = date1.year * 8766
     total_hours1 = jour+mois+heure+minute+seconde+annee
+
     # RÉCUPÉRER LA DATE DE L'UTILISATEUR
-    try:
-        age_show.config(text="")
-        # on essaie de faire le calcul
-        date2 = int(date2_entry.get())
-        date2 = date2 * 24
-        checkd2 = 1
-    except ValueError:
-        # si l'utilisateur a rentré des caractères spéciaux, on affiche un message d'erreur
-        pass  # todo
-        age_show.config(text="")
-        messagebox.showerror("ERREUR", "Erreur, merci de remplir toutes les lignes seulement avec des nombres avant de "
-                                       "valider.")
-        checkd2 = 0
-
-    # si la date est inférieure à 0 alors on affiche une erreur
-    if int(date2_entry.get()) <= 0:
-        age_show.config(text="")
-        messagebox.showerror("ERREUR JOUR DE NAISSANCE", "Erreur, le jour de votre naissance que vous entrez doit être "
-                                                         "compris entre 1 et 31.")
-        checkd2 = 0
-    if int(date2_entry.get()) > 31:
-        # si la date est supérieure à 31 alors on affiche un message d'erreur
-        age_show.config(text="")
-        messagebox.showerror("ERREUR JOUR DE NAISSANCE", "Erreur, le jour de votre naissance que vous entrez doit être "
-                                                         "compris entre 1 et 31.")
-        checkd2 = 0
-
-    # récupérer le mois 2
-    try:
-        age_show.config(text="")
-        # on essaie de faire le calcul
-        month2 = int(month2_entry.get())
-        month2 = month2 * 730
-        checkm2 = 1
-    # si l'utilisateur à rentré des caractères spéciaux, on affiche un message d'erreur
-    except ValueError:
-        pass  # todo
-        age_show.config(text="")
-        messagebox.showerror("ERREUR", "Erreur, merci de remplir toutes les lignes seulement avec des nombres avant de "
-                                       "valider.")
-        checkm2 = 0
-
-    # si le mois est inférireur à 0 alors on affiche une erreur
-    if int(month2_entry.get()) <= 0:
-        age_show.config(text="")
-        messagebox.showerror("ERREUR MOIS DE NAISSANCE", "Erreur, le mois de votre naissance que vous entrez doit être "
-                                                         "compris entre 1 et 12.")
-        checkm2 = 0
-    # si le mois est supérieur à 12, alors on affiche une erreur
-    if int(month2_entry.get()) > 12:
-        age_show.config(text="")
-        messagebox.showerror("ERREUR MOIS DE NAISSANCE", "Erreur, le mois de votre naissance que vous entrez doit être "
-                                                         "compris entre 1 et 12.")
-        checkm2 = 0
-
     # récupérer l'année 2
     try:
-        age_show.config(text="")
         # on essaie de faire le calcul
         year2 = int(year2_entry.get())
-        year2 = year2 * 8760
-        checka2 = 1
+        year2 *= 8766
     except ValueError:
-        # si l'utilisateur à rentré des caractères spéciaux, on affiche un message d'erreur
-        pass  # todo
-        age_show.config(text="")
+        # si l'utilisateur a rentré des caractères spéciaux, on affiche un message d'erreur
         messagebox.showerror("ERREUR",
                              "Erreur, merci de remplir toutes les lignes seulement avec des nombres avant de valider.")
-        checka2 = 0
+        return
 
     # si l'année est inférieure à 1900 alors on affiche une erreur
     if int(year2_entry.get()) < 1900:
-        age_show.config(text="")
         messagebox.showerror("ERREUR ANNÉE DE NAISSANCE",
                              "Erreur, l'année de votre naissance que vous entrez doit être comprise entre 1900 et "
                              "9999.")
-        checka2 = 0
-    # si l'année est inférieure à 1900 alors on affiche une erreur
-    if int(year2_entry.get()) > 9999:
-        age_show.config(text="")
+        return
+    # si l'année est supérieure à 9999 alors on affiche une erreur
+    elif int(year2_entry.get()) > 9999:
         messagebox.showerror("ERREUR ANNÉE DE NAISSANCE",
                              "Erreur, l'année de votre naissance que vous entrez doit être comprise entre 1900 et "
                              "9999.")
-        checka2 = 0
+        return
 
-        # on fait le total des heures de la date de  naissance
+    # récupérer le mois 2
+    try:
+        # on essaie de faire le calcul
+        month2 = int(month2_entry.get())
+        month2 = month2 * 730
+    # si l'utilisateur a rentré des caractères spéciaux, on affiche un message d'erreur
+    except ValueError:
+        messagebox.showerror("ERREUR",
+                             "Erreur, merci de remplir toutes les lignes seulement avec des nombres avant de "
+                             "valider.")
+        return
+
+    # si le mois est inférireur à 0 alors on affiche une erreur
+    if int(month2_entry.get()) <= 0:
+        messagebox.showerror("ERREUR MOIS DE NAISSANCE",
+                             "Erreur, le mois de votre naissance que vous entrez doit être "
+                             "compris entre 1 et 12.")
+        return
+    # si le mois est supérieur à 12, alors on affiche une erreur
+    if int(month2_entry.get()) > 12:
+        messagebox.showerror("ERREUR MOIS DE NAISSANCE",
+                             "Erreur, le mois de votre naissance que vous entrez doit être "
+                             "compris entre 1 et 12.")
+        return
+
+    # jour
+    try:
+        # on essaie de faire le calcul
+        date2 = int(date2_entry.get())
+        date2 = date2 * 24
+    except ValueError:
+        # si l'utilisateur a rentré des caractères spéciaux, on affiche un message d'erreur
+        messagebox.showerror("ERREUR", "Erreur, merci de remplir toutes les lignes seulement avec des nombres avant de "
+                                       "valider.")
+        return
+
+    # si la date est inférieure à 0 alors on affiche une erreur
+    if int(date2_entry.get()) <= 0:
+        messagebox.showerror("ERREUR JOUR DE NAISSANCE", "Erreur, le jour de votre naissance que vous entrez doit être "
+                                                         "compris entre 1 et 31.")
+        return
+    elif int(month2_entry.get()) in [1, 3, 5, 7, 8, 10, 12] and int(date2_entry.get()) > 31:
+        # si la date est supérieure à 31 alors on affiche un message d'erreur
+        messagebox.showerror("ERREUR JOUR DE NAISSANCE", "Erreur, le jour de votre naissance que vous entrez doit être "
+                                                         "compris entre 1 et 31.")
+        return
+    elif int(month2_entry.get()) in [4, 6, 9, 11] and int(date2_entry.get()) > 30:
+        messagebox.showerror("ERREUR JOUR DE NAISSANCE", "Erreur, le jour de votre naissance que vous entrez doit être "
+                                                         "compris entre 1 et 30 pour le mois entré.")
+        return
+    elif int(month2_entry.get()) == 2 and est_bissextile(int(year2_entry.get())) and int(date2_entry.get()) > 29:
+        print("oui")
+        messagebox.showerror("ERREUR JOUR DE NAISSANCE", "Erreur, le jour de votre naissance que vous entrez doit être "
+                                                         "compris entre 1 et 29 pour le mois entré.")
+        return
+    elif int(month2_entry.get()) == 2 and not est_bissextile(int(year2_entry.get())) and int(date2_entry.get()) > 28:
+        messagebox.showerror("ERREUR JOUR DE NAISSANCE", "Erreur, le jour de votre naissance que vous entrez doit être "
+                                                         "compris entre 1 et 28 pour le mois entré.")
+        return
+
+    # on fait le total des heures de la date de naissance
     total_hours2 = date2 + month2 + year2
     # si le nombre d'heures de la date de naissance est supérireure à la date actuelle, il y a une erreur.
     if total_hours2 > total_hours1:
-        age_show.config(text="")
         # on affiche l'erreur
-        messagebox.showerror("ERREUR", "Erreur, l'année de la date de naissance est plus grande que celle de l'année "
+        messagebox.showerror("ERREUR", "Erreur, la date de naissance est plus postérieure à la date "
                                        "actuelle, merci de rectifier le problème.")
-        checka2 = 0
-
-    # total des checks
-    check2 = checkd2 + checkm2 + checka2
-    total_check = check2
+        return
 
     # CRÉER UNE VARIABLE QUI COMPTE LE NOMBRE DE REPS JUSTES
-    if total_check == 3:
-        # on fait la soustraction des heures de la date actuelle et de la date de naissance
-        try:
-            total_life_hours = total_hours1 - total_hours2
-            total_life_hours = int(total_life_hours)
-            total_days = total_life_hours / 24
-            total_days = int(total_days)
-            # on affiche combien d'heures l'utilisateur à vécu
-            age_show.config(text=("Vous avez approximativement vécu  \n" + str(total_life_hours) + " heures" + " soit "
-                                  + str(total_days) + " jours."),
-                            font=("Arial", 20), bg='#52e8a9', fg='#051614')
-            # si l'utilisateur à rentré des caractères spéciaux, on affiche un message d'erreur
-        except ValueError:
-            age_show.config(text="")
-            messagebox.showerror("ERREUR",
-                                 "Erreur, merci de remplir toutes les lignes seulement "
-                                 "avec des nombres avant de valider.")
+    # on fait la soustraction des heures de la date actuelle et de la date de naissance
+    try:
+        total_life_hours = total_hours1 - total_hours2
+        total_life_hours = int(total_life_hours)
+        total_days = total_life_hours / 24
+        total_days = int(total_days)
+        # on affiche combien d'heures l'utilisateur à vécu
+        age_show.config(text=("Vous avez approximativement vécu  \n" + str(total_life_hours) + " heures" + " soit "
+                              + str(total_days) + " jours."),
+                        font=("Arial", 20), bg='#52e8a9', fg='#051614')
+        # si l'utilisateur à rentré des caractères spéciaux, on affiche un message d'erreur
+    except ValueError:
+        age_show.config(text="")
+        messagebox.showerror("ERREUR",
+                             "Erreur, merci de remplir toutes les lignes seulement "
+                             "avec des nombres avant de valider.")
 
 
 # on crée une fenêtre
