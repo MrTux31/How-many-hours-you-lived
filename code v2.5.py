@@ -138,9 +138,12 @@ def calcul_age():
         total_life_hours = int(total_life_hours)
         total_days = total_life_hours / 24
         total_days = int(total_days)
+        hour_is_plural = total_life_hours > 1
+        day_is_plural = total_days > 1
+        h = "heure" + ("s" if hour_is_plural else "")
+        d = "jour" + ("s" if day_is_plural else "")
         # on affiche combien d'heures l'utilisateur à vécu
-        age_show.config(text=("Vous avez approximativement vécu  \n" + str(total_life_hours) + " heures" + " soit "
-                              + str(total_days) + " jours."),
+        age_show.config(text=f"Vous avez approximativement vécu \n{total_life_hours} {h} soit {total_days} {d}.",
                         font=("Arial", 20), bg='#52e8a9', fg='#051614')
         # si l'utilisateur à rentré des caractères spéciaux, on affiche un message d'erreur
     except ValueError:
