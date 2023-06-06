@@ -166,8 +166,10 @@ window = Tk()
 window.title("How many hours have you lived")
 window.geometry("1080x810")
 window.minsize(480, 360)
-path_to_images = os.path.abspath(str(pathlib.Path(__file__).parent.absolute().resolve()) + "/images")
-window.iconbitmap(path_to_images + "/time.ico")
+
+path_to_images = os.path.abspath(str(pathlib.Path(__file__).parent.resolve()) + "/images")
+window.iconphoto(False, PhotoImage(file=path_to_images + "/time.png"))
+
 window.config(background='#52e8a9')
 
 # créer la frame
