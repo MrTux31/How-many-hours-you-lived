@@ -167,7 +167,7 @@ window.config(background='#52e8a9')
 frame = Frame(window, bg='#52e8a9')
 
 # ajouter un texte
-label_title = Label(frame, text="Combien d'heures as tu vécu ?", font=("Arial", 30), bg='#52e8a9', fg='#051614')
+label_title = Label(frame, text="Combien d’heures avez-vous vécues ?", font=("Arial", 30), bg='#52e8a9', fg='#051614')
 label_title.pack()
 
 
