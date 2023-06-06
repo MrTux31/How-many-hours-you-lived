@@ -45,7 +45,8 @@ def calcul_age():
     except ValueError:
         # si l'utilisateur a rentré des caractères spéciaux, on affiche un message d'erreur
         messagebox.showerror("ERREUR",
-                             "Erreur, merci de remplir toutes les lignes seulement avec des nombres avant de valider.")
+                             "Erreur, merci de remplir toutes les lignes seulement avec des nombres entiers avant de "
+                             "valider.")
         return
 
     # si l'année est inférieure à 1900 alors on affiche une erreur
@@ -93,8 +94,8 @@ def calcul_age():
         date2 = date2 * 24
     except ValueError:
         # si l'utilisateur a rentré des caractères spéciaux, on affiche un message d'erreur
-        messagebox.showerror("ERREUR", "Erreur, merci de remplir toutes les lignes seulement avec des nombres avant de "
-                                       "valider.")
+        messagebox.showerror("ERREUR", "Erreur, merci de remplir toutes les lignes seulement avec des nombres entiers "
+                                       "avant de valider.")
         return
 
     # si la date est inférieure à 0 alors on affiche une erreur
@@ -146,7 +147,7 @@ def calcul_age():
         age_show.config(text="")
         messagebox.showerror("ERREUR",
                              "Erreur, merci de remplir toutes les lignes seulement "
-                             "avec des nombres avant de valider.")
+                             "avec des nombres entiers avant de valider.")
 
 
 # on crée une fenêtre
