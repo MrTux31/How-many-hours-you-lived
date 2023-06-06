@@ -1,4 +1,4 @@
-# How-many-hours-you-lived v2.1
+# How-many-hours-you-lived v2.5
 
 * Un programme développé par MrTux31 (allias Tux31)
 * Le projet est dans le domaine de l'open source, vous pouvez l'utiliser et le modifier à votre guise.
